@@ -1,0 +1,16 @@
+news_api:
+  base_url: https://newsapi.org/v2
+  endpoints:
+    top_headlines: /top-headlines
+    everything: /everything
+  default_language: en
+  default_page_size: 100
+
+data:
+  raw_data_path: data/raw
+  processed_data_path: data/processed
+  batch_size: 100
+
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
